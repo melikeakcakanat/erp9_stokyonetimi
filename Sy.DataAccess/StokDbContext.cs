@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sy.DataAccess
 {
-  public class StokDbContext :DbContext
+    public class StokDbContext : DbContext
     {
         public StokDbContext()
             : base("name = MyCon")
@@ -17,5 +17,6 @@ namespace Sy.DataAccess
         }
 
         public virtual DbSet<Product> Products { get; set; }
-    }
+        public virtual DbSet<Product> Clients { get; set; }
+    }    
 }
