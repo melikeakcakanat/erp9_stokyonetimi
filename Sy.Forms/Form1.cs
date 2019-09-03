@@ -29,5 +29,7 @@ namespace Sy.Forms
             RegisterForm frm = new RegisterForm();
             frm.ShowDialog();
         }
+
+
     }
 }
