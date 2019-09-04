@@ -82,12 +82,13 @@
             this.btngiris.TabIndex = 6;
             this.btngiris.Text = "Giriş";
             this.btngiris.UseVisualStyleBackColor = true;
+            this.btngiris.Click += new System.EventHandler(this.btngiris_Click);
             // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(338, 330);
+            this.ClientSize = new System.Drawing.Size(329, 330);
             this.Controls.Add(this.btngiris);
             this.Controls.Add(this.txtsifreee);
             this.Controls.Add(this.label4);
